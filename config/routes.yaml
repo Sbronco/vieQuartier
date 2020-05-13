@@ -1,0 +1,13 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+home:
+  path: /
+  controller: App\Controller\HomeController::index
+indicator:
+  path: /indicateurs
+  controller: App\Controller\IndicatorController::index
+indicator.new:
+  path: /create
+  controller: App\Controller\IndicatorController::new
+  methods: 'GET|POST'
